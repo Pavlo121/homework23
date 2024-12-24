@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+footer {
+    padding: 2em;
+}
+/* Стили для формы */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #8f8c8c;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+/* Заголовок */
+h2 {
+  text-align: center;
+  color: #232222;
+}
+
+/* Поля формы */
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid #05469a;
+}
+
+form input:focus, form button:focus {
+  border-color: #66afe9;
+  outline: none;
+}
+
+form button {
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4cae4c;
+}
+
+
